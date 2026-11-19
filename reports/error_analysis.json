@@ -1,0 +1,29 @@
+{
+  "threshold": 0.5,
+  "total_test_samples": 900,
+  "counts": {
+    "true_positives": 128,
+    "true_negatives": 451,
+    "false_positives": 196,
+    "false_negatives": 125
+  },
+  "rates": {
+    "false_positive_rate": 0.3029,
+    "false_negative_rate": 0.4941
+  },
+  "economic_analysis": {
+    "unit_cost_false_positive_usd": 5.0,
+    "unit_cost_false_negative_usd": 65.0,
+    "total_false_positive_cost_usd": 980.0,
+    "total_false_negative_cost_usd": 8125.0,
+    "total_estimated_error_cost_usd": 9105.0
+  },
+  "characteristics": {
+    "false_positives_mean_lead_time": 12.07,
+    "false_negatives_mean_lead_time": 8.09
+  },
+  "operational_consequences": {
+    "false_positive_impact": "Unnecessary proactive reminders, administrative outreach overhead, mild patient reminder fatigue.",
+    "false_negative_impact": "Unfilled clinical slots, lost specialist productivity, delayed patient care, unrecovered hospital overhead."
+  }
+}
